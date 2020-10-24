@@ -1,0 +1,29 @@
+item.white_cloth.name=White Cloth
+item.black_cloth.name=Black Cloth
+item.blue_cloth.name=Blue Cloth
+item.brown_cloth.name=Brown Cloth
+item.green_cloth.name=Green Cloth
+item.orange_cloth.name=Orange Cloth
+item.red_cloth.name=Red Cloth
+item.yellow_cloth.name=Yellow Cloth
+
+item.black_fabric.name=Black Fabric
+item.blue_fabric.name=Blue Fabric
+item.brown_fabric.name=Brown Fabric
+item.green_fabric.name=Green Fabric
+item.orange_fabric.name=Orange Fabric
+item.red_fabric.name=Red Fabric
+item.yellow_fabric.name=Yellow Fabric
+
+item.black_armour_plate.name=Black Armour Plate
+item.blue_armour_plate.name=Blue Armour Plate
+item.orange_armour_plate.name=Orange Armour Plate
+item.red_armour_plate.name=Red Armour Plate
+
+item.steel_ingot.name=Steel Ingot
+
+tile.steel_block.name=Steel Block
+
+item.madara_chestplate.name=Madara Chestplate
+
+item.kubikiribocho.name=Kubikiribocho
