@@ -1,0 +1,101 @@
+{
+    "credit": "Made with Blockbench",
+    "textures": {
+        "0": "bm:items/weapons/grey2",
+        "1": "bm:items/weapons/cleaver",
+        "3": "bm:items/weapons/darkergrey",
+        "4": "bm:items/weapons/mix",
+        "5": "bm:items/weapons/cleaver_handle",
+        "6": "bm:items/weapons/white"
+
+    },
+    "elements": [
+        {
+            "from": [7.5, 5.175, 7.35],
+            "to": [7.9, 10.925, 9.35],
+            "rotation": {"angle": 0, "axis": "y", "origin": [15.2, 8, 16]},
+            "faces": {
+                "north": {"uv": [0, 0, 15.9, 15.75], "texture": "#5"},
+                "east": {"uv": [0, 0, 16, 15.75], "texture": "#6"},
+                "south": {"uv": [0, 0, 15.9, 15.75], "texture": "#5"},
+                "west": {"uv": [0, 0, 16, 15.75], "texture": "#6"},
+                "up": {"uv": [0, 0, 0.4, 2], "texture": "#missing"},
+                "down": {"uv": [1, 5, 3, 7], "texture": "#6"}
+            }
+        },
+        {
+            "from": [8.1, 10.85, 10.6],
+            "to": [10.175, 32, 12.575],
+            "rotation": {"angle": -45, "axis": "y", "origin": [13.15, 21.425, 9.35]},
+            "faces": {
+                "north": {"uv": [0, 0, 2.075, 16], "texture": "#0"},
+                "east": {"uv": [0, 0, 1.975, 16], "texture": "#0"},
+                "south": {"uv": [0, 0, 2.075, 16], "texture": "#3"},
+                "west": {"uv": [0, 0, 1.975, 16], "texture": "#3"},
+                "up": {"uv": [0, 0, 14.31, 15.151], "rotation": 270, "texture": "#4"},
+                "down": {"uv": [0, 0, 15.075, 15.975], "texture": "#4"}
+            }
+        },
+        {
+            "from": [6.975, 10.85, 6.65],
+            "to": [8.75, 32, 9.525],
+            "rotation": {"angle": 0, "axis": "y", "origin": [15.725, 18.875, 14.7]},
+            "faces": {
+                "north": {"uv": [0, 0, 16, 16], "texture": "#1"},
+                "east": {"uv": [0, 0, 2.825, 16], "texture": "#3"},
+                "south": {"uv": [0, 0, 15.5, 16], "rotation": 180, "texture": "#1"},
+                "west": {"uv": [0, 0, 2.825, 16], "texture": "#3"},
+                "up": {"uv": [0, 0, 1.75, 2.825], "texture": "#3"},
+                "down": {"uv": [0, 0, 1.75, 2.825], "texture": "#3"}
+            }
+        }
+    ],
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [0, 90, 0],
+            "translation": [0, -0.25, 0.25],
+            "scale": [3.5957, 1.5307, 0.33]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [0, -90, 0],
+            "translation": [0, 0.5, 1.5],
+            "scale": [4, 2.03, 0.39]
+        },
+        "firstperson_righthand": {
+            "rotation": [0, 90, 0],
+            "translation": [0, 0.5, 1.5],
+            "scale": [4, 2.03, 0.39]
+        },
+        "firstperson_lefthand": {
+            "rotation": [0, -90, 0],
+            "translation": [0, 0.5, 1.5],
+            "scale": [4, 2.03, 0.39]
+        },
+        "ground": {
+            "translation": [0, 0.5, 1.5],
+            "scale": [4, 2.03, 0.39]
+        },
+        "gui": {
+            "rotation": [0, 0, -50],
+            "translation": [-6.75, -5.5, 0],
+            "scale": [1.83, 0.7, 1]
+        },
+        "fixed": {
+            "rotation": [-180, 0, 140],
+            "translation": [6, -7, 0],
+            "scale": [1.47, 0.77, 0.03]
+        }
+    },
+    "groups": [
+        {
+            "name": "handle",
+            "origin": [8, 8, 8],
+            "children": [0]
+        },
+        {
+            "name": "Blade",
+            "origin": [8, 8, 8],
+            "children": [1, 2]
+        }
+    ]
+}
